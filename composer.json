@@ -1,0 +1,12 @@
+{
+    "name": "guillaume/sydphp-12-03-2020",
+    "require": {
+        "phpunit/phpunit": "^8.5"
+    },
+    "authors": [
+        {
+            "name": "Guillaume Renoult",
+            "email": "guillaume.renoult@gmail.com"
+        }
+    ]
+}
