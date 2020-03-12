@@ -1,14 +1,13 @@
 <?php
 
-namespace V1;
 
 use PHPUnit\Framework\TestCase;
 
-class PhoneNumberValidatorTest extends TestCase
+class PhoneNumberValidatorV1Test extends TestCase
 {
     public function testValidate()
     {
-        $validator = new PhoneNumberValidator();
+        $validator = new \V1\PhoneNumberValidator();
         $result = $validator->validate('0469853621');
         $this->assertTrue($result);
 

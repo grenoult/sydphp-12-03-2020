@@ -4,14 +4,14 @@ namespace V3;
 
 use PHPUnit\Framework\TestCase;
 
-class PhoneNumberValidatorTest extends TestCase
+class PhoneNumberValidatorV3Test extends TestCase
 {
     /**
      * @dataProvider validateDate
      */
     public function testValidate($input, $expectedOutput)
     {
-        $validator = new PhoneNumberValidator();
+        $validator = new \V3\PhoneNumberValidator();
 
         $result = $validator->validate($input);
         $this->assertSame($expectedOutput, $result);
