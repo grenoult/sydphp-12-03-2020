@@ -11,7 +11,7 @@ class PhoneNumberValidatorTest extends TestCase
      */
     public function testValidate($input, $expectedOutput)
     {
-        $validator = new PhoneNumberValidatorV3();
+        $validator = new PhoneNumberValidator();
 
         $result = $validator->validate($input);
         $this->assertSame($expectedOutput, $result);

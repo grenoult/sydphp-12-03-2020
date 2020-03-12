@@ -8,7 +8,7 @@ class PhoneNumberValidatorTest extends TestCase
 {
     public function testValidate()
     {
-        $validator = new PhoneNumberValidatorV1();
+        $validator = new PhoneNumberValidator();
         $result = $validator->validate('0469 853 621');
         $this->assertTrue($result);
 
