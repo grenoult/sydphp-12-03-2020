@@ -1,6 +1,5 @@
 <?php
 
-
 use PHPUnit\Framework\TestCase;
 
 class PhoneNumberValidatorV1Test extends TestCase
